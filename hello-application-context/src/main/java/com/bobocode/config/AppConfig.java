@@ -1,6 +1,8 @@
 package com.bobocode.config;
 
 import com.bobocode.TestDataGenerator;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 /**
  * This class application context configuration.
@@ -10,6 +12,9 @@ import com.bobocode.TestDataGenerator;
  * todo: provide explicit configuration for a bean of type {@link TestDataGenerator} with name "dataGenerator" in this class.
  * todo: Don't specify bean name "dataGenerator" explicitly
  */
+
+@Configuration
+@Component
 public class AppConfig {
 
 }
